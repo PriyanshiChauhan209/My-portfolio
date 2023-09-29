@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1210px)" href="/CSS/phone.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Playfair+Display&display=swap"
         rel="stylesheet">
@@ -17,10 +19,12 @@
     <nav id="navbar">
         <h3>Portfolio</h3>
         <ul>
-            <li class="item"><a href="#"><b>Home</b></a></li>
-            <li class="item"><a href="#"><b>About me</b></a></li>
-            <li class="item"><a href="#"><b>Skills</b></a></li>
-            <li class="item"><a href="#"><b>Contact Me</b></a></li>
+            <li class="item"><a href="#home"><b>Home</b></a></li>
+            <li class="item"><a href="#about"><b>About me</b></a></li>
+            <li class="item"><a href="#skills"><b>Skills</b></a></li>
+            <li class="item"><a href="/img/resume.jpg"><b>Resume</b></a></li>
+
+            <li class="item"><a href="#contact"><b>Contact Me</b></a></li>
         </ul>
     </nav>
 
@@ -28,11 +32,9 @@
     <section id="home">
         <div class="content">
             <h1 class="h-primary">Hello, I am Priyanshi Chauhan</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum cum nemo autem, ab distinctio quisquam
-                quo voluptas amet provident quod impedit minima eaque ipsum similique? Unde nobis odio ipsam voluptate,
-                corporis quae aperiam suscipit tempore recusandae ut quasi, quos eos! Libero nemo dolorum neque iure
-                minima ipsa tempore. Error quo fugiat eum molestiae animi nisi molestias perspiciatis reiciendis cumque
-                numquam dolorum, obcaecati porro suscipit ullam? Praesentium deleniti doloribus obcaecati nesciunt?
+            <p>Welcome to my creative realm, where imagination knows no bounds and innovation takes flight. </br>I am a
+                <b>Web Developer</b> with a deep-seated passion for pushing boundaries and
+                exceeding expectations.
             </p>
         </div>
 
@@ -41,10 +43,26 @@
         </div>
 
     </section>
+    <div class="hr"></div>
+
     <!-- about me -->
+    <section id="about">
+        <div class="content">
+            <h1 class="h-primary ">About me</h1>
+            <hr>
+            <p>I'm a decision-maker, a coordination enthusiast, and an attentive listener. With a talent for swiftly
+                navigating complex situations, I bring a proactive approach to every challenge. My strength lies in my
+                ability to make informed decisions, effectively coordinate efforts, and truly understand the needs of
+                those around me. I'm passionate about driving results and fostering collaborative environments.
+            </p>
+        </div>
+
+
+    </section>
+    <div class="hr"></div>
 
     <!-- Skills -->
-    <section class="skills">
+    <section id="skills">
         <h3 class="h-primary center">Skills</h3>
         <div id="tech">
             <div class="box">
@@ -56,7 +74,7 @@
                     <div class="rate"></div>
                     <div class="rate"></div>
                     <div class="rate1"></div>
-                    
+
 
                 </div>
 
@@ -66,17 +84,17 @@
             </div>
             <div class="box">
                 <h3 class="h-secondary center">CSS</h3>
-                
+
                 <img src="./img/css (2).png">
-                
-                
+
+
                 <div class="circle">
                     <div class="rate"></div>
                     <div class="rate"></div>
                     <div class="rate"></div>
                     <div class="rate"></div>
                     <div class="rate1"></div>
-                    
+
 
                 </div>
 
@@ -91,7 +109,7 @@
                     <div class="rate"></div>
                     <div class="rate"></div>
                     <div class="rate1"></div>
-                    
+
 
                 </div>
 
@@ -106,18 +124,19 @@
                     <div class="rate"></div>
                     <div class="rate1"></div>
                     <div class="rate1"></div>
-                    
+
 
                 </div>
 
 
             </div>
-            
+
         </div>
     </section>
 
-    
-    
+    <div class="hr"></div>
+
+
     <!-- contact -->
     <section id="contact">
         <h1 class="h-primary center">Contact me</h1>
@@ -140,13 +159,13 @@
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
             </form>
-           
-            
+
+
 
 
         </div>
     </section>
-    
+
     <footer>
         <div class="center">
             Copyright &copy; www.PriyanshiChauhan.com All rights reserved
